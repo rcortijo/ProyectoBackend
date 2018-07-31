@@ -1,0 +1,746 @@
+{
+	"info": {
+		"_postman_id": "4a999ac5-8161-4ae7-9d0b-0bfe2d5423fd",
+		"name": "APIS Hackaton - Collection Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "5a4c31bc-508d-4be1-8149-35df54944746",
+			"name": "Crear Perfiles",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Entidad\"\n}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/profiles",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "6df13e68-9e90-4e74-9f4b-1e400d89ba84",
+			"name": "Obtener Perfiles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Entidad\"\n}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/profiles",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "95530b0c-99a9-4602-8dd3-5d8be5afeed9",
+			"name": "Crear Tipo de Evento",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"description\":\"Asamblea\"\n}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/typesEvent",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"typesEvent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "8f8c316e-584b-4421-84ef-f5824e988c92",
+			"name": "Obtener Tipos de Evento",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"description\":\"Asamblea\"\n}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/typesEvent",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"typesEvent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "3994fe88-d9aa-4836-8dcf-0d495c98c0c9",
+			"name": "Crear Entidad",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"name\" : \"Roberto\", \"lastName\" : \"Cortijo\",  \"email\" : \"admin@gmail.com\", \r\n\"password\" : \"admin\", \"idProfile\" : 1 , \"businessName\" : \"Entidad Master\" }"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "3e77a719-fd7a-4ead-992e-96aa9b19cf0f",
+			"name": "Obtener Entidades",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"name\" : \"Roberto\", \"lastName\" : \"Cortijo\",  \"email\" : \"admin@gmail.com\", \r\n\"password\" : \"admin\", \"idProfile\" : 1 , \"businessName\" : \"Entidad Master\" }"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "57e8e0e7-bf4f-4a42-a078-23389bdd1f88",
+			"name": "Obtener una Entidad",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"name\" : \"Roberto\", \"lastName\" : \"Cortijo\",  \"email\" : \"admin@gmail.com\", \r\n\"password\" : \"admin\", \"idProfile\" : 1 , \"businessName\" : \"Entidad Master\" }"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "bfcd4bb3-2c26-4f31-861a-a963dfc5ffa5",
+			"name": "Crear Usuario a una Entidad",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\" : \"Juan\", \"lastName\" : \"Perez\",  \"email\" : \"juan@gmail.com\", \r\n\"password\" : \"123\", \"idProfile\" : 2 , \"idEntity\":1}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/users",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "f09947dc-5116-416c-87a8-8290f384169c",
+			"name": "Obtiene Usuarios de una Entidad",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\" : \"Juan\", \"lastName\" : \"Perez\",  \"email\" : \"pepe@gmail.com\", \r\n\"password\" : \"123\", \"idProfile\" : 2 , \"idEntity\":1}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/users",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "17b8760f-a9e0-474e-b54f-af3c66721636",
+			"name": "Crear Evento a una Entidad",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"title\" : \"Evento Asamblea Agosto 2018\" , \"description\":\"Descripcion de evento\", \"dateEvent\":\"2018-08-10\",\r\n  \"idTypeEvent\":1}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "848572c6-0d88-4528-acce-05c9e4b3bb26",
+			"name": "Obtiene un Evento de una Entidad",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"sessionValue": {
+								"0": {}
+							},
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "a8798eb4-8609-41b3-85ad-14ddcc930d68",
+			"name": "Obtiene Eventos de una Entidad",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"title\" : \"Evento Asamblea Agosto 2018\" , \"description\":\"Descripcion de evento\",\r\n  \"idTypeEvent\":1}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "e6b022b2-d2b0-42ba-8fb1-f34db6c094ba",
+			"name": "Asigna Participante a un Evento",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"assignedVotes\": 1, \"idUser\": 2}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/participants",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"participants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "6da717fe-3d53-4414-8729-a165338fc033",
+			"name": "Obtiene Participantes de un Evento",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"assignedVotes\": 1, \"idUser\": 2}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/participants",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"participants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "eeb12066-66a3-494c-8b7f-ac13040cb711",
+			"name": "Crear Pregunta a un Evento",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\":\"EJEMPLO DE PREGUNTA 1\"}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/questions",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "3be9ac26-29b5-4982-a575-fa3b6b8ba8fb",
+			"name": "Obtiene Preguntas de un Evento",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\":\"EJEMPLO DE PREGUNTA 2\"}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/questions",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "81e1532f-0af9-4ed7-ad58-40c888566b33",
+			"name": "Crea Opcion a una Pregunta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\":\"SI\"}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/questions/1/options",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"questions",
+						"1",
+						"options"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "c1a8b6b8-dfef-44df-957b-2e85a52a676d",
+			"name": "Obtiene Opciones de una Pregunta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\":\"NO\"}"
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/questions/1/options",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"questions",
+						"1",
+						"options"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "b5d3b6e5-3da1-4ecf-b8e6-4ff02d9d997d",
+			"name": "Inserta Imagen a un Evento",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"sessionValue": {
+								"0": {}
+							},
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/image",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "77584aa2-78d4-4ffa-b070-844da6f72718",
+			"name": "Obtiene Imagen de un Evento",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"sessionValue": {
+								"0": {}
+							},
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/image",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "a09112a6-9f84-45cf-aef8-03dd9b28e5f7",
+			"name": "Elimina Imagen de un Evento",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"sessionValue": {
+								"0": {}
+							},
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://itacademybcn.herokuapp.com/hackaton/entities/1/events/1/image",
+					"protocol": "https",
+					"host": [
+						"itacademybcn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hackaton",
+						"entities",
+						"1",
+						"events",
+						"1",
+						"image"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
